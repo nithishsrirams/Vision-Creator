@@ -1,0 +1,143 @@
+/content/drive/MyDrive/hackathon/stage1_ocr/app.py:58: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [21789]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+
+[startup] device      : cuda
+[startup] dncnn path  : /content/drive/MyDrive/hackathon/stage1_ocr/weights/dncnn.pth  exists=True
+[startup] ocr path    : /content/drive/MyDrive/hackathon/stage1_ocr/weights/ocr_snp.pth  exists=True
+  Pipeline ready — device=cuda, median_kernel=3
+[startup] ✓ DnCNN loaded
+[startup] ✓ OCRNet loaded (val_acc=99.10%)
+[startup] ✓ Fully ready in 0.13s
+
+INFO:     34.121.118.80:0 - "GET /health HTTP/1.1" 200 OK
+INFO:     2601:801:301:d460:6065:80c3:d4ed:cef3:0 - "GET / HTTP/1.1" 404 Not Found
+INFO:     2601:801:301:d460:6065:80c3:d4ed:cef3:0 - "GET / HTTP/1.1" 404 Not Found
+INFO:     34.121.118.80:0 - "GET /health HTTP/1.1" 200 OK
+INFO:     34.121.118.80:0 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59114 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42526 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     34.121.118.80:0 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42544 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42556 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42566 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42576 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42578 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42584 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42592 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42594 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42606 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42618 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42624 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42632 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42636 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42642 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42648 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42658 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42666 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42672 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42688 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42696 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42706 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42720 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42730 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42738 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42748 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42762 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42764 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42766 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42776 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42788 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42794 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42806 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42822 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42832 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42834 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42846 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42852 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42856 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42860 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42868 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42872 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42882 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42896 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42902 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42908 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42914 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42926 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42938 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42946 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42960 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42968 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42974 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42978 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42994 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42998 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43000 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43010 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43016 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43022 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43032 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43040 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43056 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43068 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43082 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43084 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43086 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43102 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43108 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43110 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43116 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43124 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43140 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43154 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43156 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43168 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43174 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43188 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43192 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43200 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43202 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43214 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43228 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43244 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43252 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43260 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43272 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43282 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43286 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43294 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43306 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43318 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43320 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43322 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43326 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43340 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43352 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43360 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43372 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43380 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43384 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43386 - "POST /ocr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43398 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43410 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43418 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43420 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43430 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43434 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43446 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43450 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43462 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43470 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43486 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43492 - "POST /ocr/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37104 - "POST /compress HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37106 - "POST /roundtrip HTTP/1.1" 404 Not Found
